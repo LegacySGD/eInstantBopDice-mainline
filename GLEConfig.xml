@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2091" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Bop Dice WLA" version="1.0.6" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="100,200,300,500,1000,5000" 
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_NZ,en_US,nb_NO"
+              skbPlatformVersion="1.4.0"
+              stateful="N" 
+	          merchandisePrize="N">
+            <!-- LNZ -->
+            <paymodel modelid="300-2091-001"  revealId="2091" revealVersionId="2091"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bop Dice : 300-2091-001"
+                      hibethold="32.59" lobethold="32.59"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+            <paymodelConfig modelid="300-2091-001"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2091-001"   clienttype="HTML" configcode="PHLP"/>
+
+            <!-- NT -->
+            <paymodel modelid="300-2091-002"  revealId="2091" revealVersionId="2091"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bop Dice : 300-2091-002"
+                      hibethold="32.59" lobethold="32.59"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+            <paymodelConfig modelid="300-2091-002"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2091-002"   clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RGS COM -->
+            <!-- <paymodel modelid="300-2091-003"  revealId="2091" revealVersionId="2091"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bop Dice : 300-2091-003"
+                      hibethold="32.59" lobethold="32.59"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+
+            <paymodelConfig modelid="300-2091-003"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2091-003"   clienttype="HTML" configcode="PHLP"/>  -->
+			
+			<!-- GA -->
+			<paymodel modelid="300-2091-004"  revealId="4071" revealVersionId="4071"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bop Dice : 300-2091-004"
+                      hibethold="32.59" lobethold="32.59"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+			<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2091-004" />
+            <paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2091-004" />
+
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+
+
+        </game>
+    </family>
